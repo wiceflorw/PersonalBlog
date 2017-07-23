@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web-dao" />
+        <module name="web-parse" />
         <module name="web-service" />
         <module name="web-view" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PersonalBlog" target="1.5" />
-      <module name="web-dao" target="1.5" />
-      <module name="web-service" target="1.5" />
-      <module name="web-view" target="1.5" />
+      <module name="PersonalBlog" target="1.8" />
+      <module name="web-dao" target="1.8" />
+      <module name="web-parse" target="1.8" />
+      <module name="web-service" target="1.8" />
+      <module name="web-view" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

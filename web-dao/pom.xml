@@ -9,9 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <dependencies>
+        <!-- 组间依赖 -->
+        <!-- 解析器依赖 -->
         <dependency>
             <groupId>com.wiceflow</groupId>
-            <artifactId>web-service</artifactId>
+            <artifactId>web-parse</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
